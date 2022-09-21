@@ -1,0 +1,139 @@
+.benefits{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.benefits__Up {
+  background-image: url(../img/Vectary\ texture.png);
+  background-size: 160px 142px;
+  background-repeat: no-repeat;
+  background-position-y: 21px;
+
+}
+.benefits__Up-text {
+  padding-left: 8px;
+}
+.benefits__list {
+  margin-top: 20px;
+}
+.benefits__main-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2E2B44;
+  margin-bottom: 17px;
+
+}
+.benefits__text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.benefits__item-1 {
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80px;
+  background-image: url(../img/eye-circle.svg);
+  background-repeat: no-repeat;
+}
+.benefits__item-2 {
+  min-height: 80px;
+  flex-direction: column;
+    justify-content: center;
+  background-image: url(../img/fingers.svg);
+  background-repeat: no-repeat;
+}
+.benefits__item-3{
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666666;
+  background-image: url(../img/rop.svg);
+  background-repeat: no-repeat;
+}
+.benefits__item-text{
+  margin-left: 109px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666666;
+  line-height: 120%;
+  position: absolute;
+  top: 15%;
+}
+.br_block {
+  display: block;
+}
+
+  @media(max-width:988px) {
+
+    .benefits__Up {
+      background-size: 211px 187px;
+      background-position: right 22px;
+    }
+    .benefits__item-1{
+      display: flex;
+      min-height: 163px;
+
+    }
+    .benefits__item-2{
+      display: flex;
+      min-height: 163px;
+
+    }
+    .benefits__item-3{
+      display: flex;
+      min-height: 163px;
+
+    }
+    .benefits__item-text{
+      margin-top: 65px;
+      margin-left: 0px;
+    }
+  }
+
+
+  @media (max-width: 662px) {
+    .benefits__Up {
+      background-size: 160px 142px;
+      background-position: right 22px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .benefits__item-text{
+      margin-top: 0px;
+      margin-left: 100px;
+    }
+    .benefits__item-1{
+      display: flex;
+      min-height: 100px;
+      background-position-y: 10px;
+    }
+    .benefits__item-2{
+      display: flex;
+      min-height:100px;
+      background-position-y: 10px;
+    }
+    .benefits__item-3{
+      display: flex;
+      min-height: 100px;
+      background-position-y: 10px;
+    }
+    .benefits__Up{
+      display: none;
+    }
+
+    .benefits__main-text {
+      font-size: 20px;
+      line-height: 130%;
+      margin-bottom: 10px;
+    }
+    .benefits {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .br_block {
+      display: none;
+    }
+  }

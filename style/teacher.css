@@ -1,0 +1,66 @@
+.teacher {
+  background-color: #212133;
+  padding-top: 74px;
+  padding-bottom: 44px;
+}
+.teacher__main-text {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 27px;
+}
+.teacher__item-name{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.teacher__item-text{
+  font-size: 16px;
+  color: #85859B;
+  line-height: 150%;
+}
+.photo_teacher {
+  border-radius: 23px 23px 0px 0px;
+  overflow: hidden;
+}
+.teacher__item{
+  border-radius: 23px 23px 0px 0px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.photo_teacher {
+  width: 100%;
+}
+.photo_teacher-768 {
+  display: none;
+}
+  @media (max-width: 990px) {
+    .photo_teacher {
+      border-radius: 40px 40px 0px 0px;
+      overflow: hidden;
+    }
+  }
+  @media (max-width: 768px) {
+    .photo_teacher {
+      border-radius: 25px 25px 0px 0px;
+    }
+    .photo_teacher-1440 {
+      display: none;
+    }
+    .photo_teacher-768 {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 510px) {
+    .teacher {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .teacher__main-text{
+      font-size: 20px;
+    }
+  }

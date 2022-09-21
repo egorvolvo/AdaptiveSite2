@@ -1,0 +1,24 @@
+.footer__up{
+  background-color:#2E2B44;;
+}
+.footer__list{
+  padding-top: 31px;
+  padding-bottom: 31px;
+
+}
+.footer__list-img {
+  background-size: cover;
+}
+
+.footer__down {
+  text-align: center;
+}
+
+.social {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__down-text {
+  font-size: 13px;
+}
